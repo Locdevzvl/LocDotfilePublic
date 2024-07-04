@@ -1,0 +1,17 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID.  testDB.
+
+       ENVIRONMENT DIVISION.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 WS-RESULT PIC 9.
+       01 WS-ORD PIC 9(02).
+       01 WS-CNT PIC 99.
+       PROCEDURE DIVISION.
+       MAIN SECTION.
+       MAIN-START.
+           DISPLAY WS-RESULT.
+           DISPLAY WS-ORD.
+           DISPLAY WS-CNT.
+       MAIN-EXIT.
+           STOP RUN.
